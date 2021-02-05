@@ -3,6 +3,10 @@ html   {
     font-size: 10px;
 }
 
+body {
+    background-color: #161A1D;
+    color: #D3D3D3;
+}
 
 h1 {
     font-size: 3rem;
@@ -19,7 +23,12 @@ p {
     font-size: 1.5rem;
 }
 a {
-    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color: #A4161A;
+    transition: 0.5s;
 }
 
 /*   header    */
@@ -48,7 +57,7 @@ header {
 #img-div img {
     max-width: 100%;
     border-radius: 5%;
-    box-shadow: 15px 10px #7c0b0b; 
+    box-shadow: 15px 10px #660708; 
 }
 
 #img-caption {
