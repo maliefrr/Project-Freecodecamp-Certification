@@ -91,6 +91,9 @@ footer {
     top: 75px;
 }
 
+#image {
+    display: block;
+}
 
 footer a {
     display: inline-grid;
